@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
-@property (nonatomic, strong) UITableView *tableView;
+@interface HomeViewController : UIViewController<UITableViewDataSource>
+@property (nonatomic, strong) UITableView * _Nonnull tableView;
+@property (nonnull,strong) NSArray *arrTableData;
 @end

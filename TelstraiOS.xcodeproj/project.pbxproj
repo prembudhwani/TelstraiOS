@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17994B01732AB0A420365E49 /* libPods-TelstraiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F58F1F429E4AD1936B1CF391 /* libPods-TelstraiOS.a */; };
 		DD0642D61FAC966D0086E474 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642D51FAC966D0086E474 /* AppDelegate.m */; };
 		DD0642DF1FAC966D0086E474 /* TelstraiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD0642DD1FAC966D0086E474 /* TelstraiOS.xcdatamodeld */; };
 		DD0642E11FAC966D0086E474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0642E01FAC966D0086E474 /* Assets.xcassets */; };
@@ -14,6 +15,10 @@
 		DD0642F11FAC966D0086E474 /* TelstraiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642F01FAC966D0086E474 /* TelstraiOSTests.m */; };
 		DD0642FC1FAC966D0086E474 /* TelstraiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642FB1FAC966D0086E474 /* TelstraiOSUITests.m */; };
 		DD0750641FAE0CF400E0EEB6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */; };
+		DDFF00781FAE586B00CF7593 /* no_image_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF00751FAE586B00CF7593 /* no_image_icon.png */; };
+		DDFF00791FAE586B00CF7593 /* no_image_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF00761FAE586B00CF7593 /* no_image_icon@2x.png */; };
+		DDFF007A1FAE586B00CF7593 /* no_image_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF00771FAE586B00CF7593 /* no_image_icon@3x.png */; };
+		DDFF007E1FAE587C00CF7593 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF007D1FAE587C00CF7593 /* HomeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		215DE368CA0A1C149DA97F28 /* Pods-TelstraiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelstraiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TelstraiOS/Pods-TelstraiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D49E02551D1125C2AAC4CF3E /* Pods-TelstraiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TelstraiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TelstraiOS/Pods-TelstraiOS.release.xcconfig"; sourceTree = "<group>"; };
 		DD0642D11FAC966D0086E474 /* TelstraiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelstraiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0642D41FAC966D0086E474 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD0642D51FAC966D0086E474 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +56,12 @@
 		DD0642FD1FAC966D0086E474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD0750621FAE0CF400E0EEB6 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DDFF00751FAE586B00CF7593 /* no_image_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_image_icon.png; sourceTree = "<group>"; };
+		DDFF00761FAE586B00CF7593 /* no_image_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_image_icon@2x.png"; sourceTree = "<group>"; };
+		DDFF00771FAE586B00CF7593 /* no_image_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_image_icon@3x.png"; sourceTree = "<group>"; };
+		DDFF007C1FAE587C00CF7593 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		DDFF007D1FAE587C00CF7593 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		F58F1F429E4AD1936B1CF391 /* libPods-TelstraiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TelstraiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17994B01732AB0A420365E49 /* libPods-TelstraiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		194DFC12DEA64A605BF35F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F58F1F429E4AD1936B1CF391 /* libPods-TelstraiOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60E12CBEFE9132DC30CAC07F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				215DE368CA0A1C149DA97F28 /* Pods-TelstraiOS.debug.xcconfig */,
+				D49E02551D1125C2AAC4CF3E /* Pods-TelstraiOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DD0642C81FAC966D0086E474 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				DD0642EF1FAC966D0086E474 /* TelstraiOSTests */,
 				DD0642FA1FAC966D0086E474 /* TelstraiOSUITests */,
 				DD0642D21FAC966D0086E474 /* Products */,
+				60E12CBEFE9132DC30CAC07F /* Pods */,
+				194DFC12DEA64A605BF35F05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +132,8 @@
 		DD0642D31FAC966D0086E474 /* TelstraiOS */ = {
 			isa = PBXGroup;
 			children = (
+				DDFF007B1FAE587C00CF7593 /* Views */,
+				DDFF00731FAE586B00CF7593 /* Resources */,
 				DD0750611FAE0CD400E0EEB6 /* ViewControllers */,
 				DD0642D41FAC966D0086E474 /* AppDelegate.h */,
 				DD0642D51FAC966D0086E474 /* AppDelegate.m */,
@@ -137,6 +172,33 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		DDFF00731FAE586B00CF7593 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF00741FAE586B00CF7593 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DDFF00741FAE586B00CF7593 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF00751FAE586B00CF7593 /* no_image_icon.png */,
+				DDFF00761FAE586B00CF7593 /* no_image_icon@2x.png */,
+				DDFF00771FAE586B00CF7593 /* no_image_icon@3x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DDFF007B1FAE587C00CF7593 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DDFF007C1FAE587C00CF7593 /* HomeTableViewCell.h */,
+				DDFF007D1FAE587C00CF7593 /* HomeTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DD0643001FAC966D0086E474 /* Build configuration list for PBXNativeTarget "TelstraiOS" */;
 			buildPhases = (
+				8BE8F18F3E83FE77FFF0D28E /* [CP] Check Pods Manifest.lock */,
 				DD0642CD1FAC966D0086E474 /* Sources */,
 				DD0642CE1FAC966D0086E474 /* Frameworks */,
 				DD0642CF1FAC966D0086E474 /* Resources */,
+				3DAF3F5101714C565EA71E77 /* [CP] Embed Pods Frameworks */,
+				32D6B4BBAEC3DD6AE803ABA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD0642E11FAC966D0086E474 /* Assets.xcassets in Resources */,
+				DDFF007A1FAE586B00CF7593 /* no_image_icon@3x.png in Resources */,
+				DDFF00791FAE586B00CF7593 /* no_image_icon@2x.png in Resources */,
+				DDFF00781FAE586B00CF7593 /* no_image_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +331,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32D6B4BBAEC3DD6AE803ABA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TelstraiOS/Pods-TelstraiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DAF3F5101714C565EA71E77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TelstraiOS/Pods-TelstraiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE8F18F3E83FE77FFF0D28E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TelstraiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD0642CD1FAC966D0086E474 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -270,6 +389,7 @@
 			files = (
 				DD0642DF1FAC966D0086E474 /* TelstraiOS.xcdatamodeld in Sources */,
 				DD0642E71FAC966D0086E474 /* main.m in Sources */,
+				DDFF007E1FAE587C00CF7593 /* HomeTableViewCell.m in Sources */,
 				DD0642D61FAC966D0086E474 /* AppDelegate.m in Sources */,
 				DD0750641FAE0CF400E0EEB6 /* HomeViewController.m in Sources */,
 			);
@@ -413,6 +533,7 @@
 		};
 		DD0643011FAC966D0086E474 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215DE368CA0A1C149DA97F28 /* Pods-TelstraiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -427,6 +548,7 @@
 		};
 		DD0643021FAC966D0086E474 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49E02551D1125C2AAC4CF3E /* Pods-TelstraiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
