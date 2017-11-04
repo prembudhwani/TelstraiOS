@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		DD0642D61FAC966D0086E474 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642D51FAC966D0086E474 /* AppDelegate.m */; };
-		DD0642D91FAC966D0086E474 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642D81FAC966D0086E474 /* ViewController.m */; };
-		DD0642DC1FAC966D0086E474 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0642DA1FAC966D0086E474 /* Main.storyboard */; };
 		DD0642DF1FAC966D0086E474 /* TelstraiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD0642DD1FAC966D0086E474 /* TelstraiOS.xcdatamodeld */; };
 		DD0642E11FAC966D0086E474 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0642E01FAC966D0086E474 /* Assets.xcassets */; };
-		DD0642E41FAC966D0086E474 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0642E21FAC966D0086E474 /* LaunchScreen.storyboard */; };
 		DD0642E71FAC966D0086E474 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642E61FAC966D0086E474 /* main.m */; };
 		DD0642F11FAC966D0086E474 /* TelstraiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642F01FAC966D0086E474 /* TelstraiOSTests.m */; };
 		DD0642FC1FAC966D0086E474 /* TelstraiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642FB1FAC966D0086E474 /* TelstraiOSUITests.m */; };
+		DD0750641FAE0CF400E0EEB6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +37,8 @@
 		DD0642D11FAC966D0086E474 /* TelstraiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelstraiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0642D41FAC966D0086E474 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD0642D51FAC966D0086E474 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD0642D71FAC966D0086E474 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD0642D81FAC966D0086E474 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		DD0642DB1FAC966D0086E474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD0642DE1FAC966D0086E474 /* TelstraiOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelstraiOS.xcdatamodel; sourceTree = "<group>"; };
 		DD0642E01FAC966D0086E474 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DD0642E31FAC966D0086E474 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD0642E51FAC966D0086E474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD0642E61FAC966D0086E474 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DD0642EC1FAC966D0086E474 /* TelstraiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelstraiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +47,8 @@
 		DD0642F71FAC966D0086E474 /* TelstraiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelstraiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0642FB1FAC966D0086E474 /* TelstraiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelstraiOSUITests.m; sourceTree = "<group>"; };
 		DD0642FD1FAC966D0086E474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0750621FAE0CF400E0EEB6 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +99,10 @@
 		DD0642D31FAC966D0086E474 /* TelstraiOS */ = {
 			isa = PBXGroup;
 			children = (
+				DD0750611FAE0CD400E0EEB6 /* ViewControllers */,
 				DD0642D41FAC966D0086E474 /* AppDelegate.h */,
 				DD0642D51FAC966D0086E474 /* AppDelegate.m */,
-				DD0642D71FAC966D0086E474 /* ViewController.h */,
-				DD0642D81FAC966D0086E474 /* ViewController.m */,
-				DD0642DA1FAC966D0086E474 /* Main.storyboard */,
 				DD0642E01FAC966D0086E474 /* Assets.xcassets */,
-				DD0642E21FAC966D0086E474 /* LaunchScreen.storyboard */,
 				DD0642E51FAC966D0086E474 /* Info.plist */,
 				DD0642E61FAC966D0086E474 /* main.m */,
 				DD0642DD1FAC966D0086E474 /* TelstraiOS.xcdatamodeld */,
@@ -133,6 +126,15 @@
 				DD0642FD1FAC966D0086E474 /* Info.plist */,
 			);
 			path = TelstraiOSUITests;
+			sourceTree = "<group>";
+		};
+		DD0750611FAE0CD400E0EEB6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD0750621FAE0CF400E0EEB6 /* HomeViewController.h */,
+				DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD0642E41FAC966D0086E474 /* LaunchScreen.storyboard in Resources */,
 				DD0642E11FAC966D0086E474 /* Assets.xcassets in Resources */,
-				DD0642DC1FAC966D0086E474 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +269,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD0642DF1FAC966D0086E474 /* TelstraiOS.xcdatamodeld in Sources */,
-				DD0642D91FAC966D0086E474 /* ViewController.m in Sources */,
 				DD0642E71FAC966D0086E474 /* main.m in Sources */,
 				DD0642D61FAC966D0086E474 /* AppDelegate.m in Sources */,
+				DD0750641FAE0CF400E0EEB6 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,25 +305,6 @@
 			targetProxy = DD0642F81FAC966D0086E474 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		DD0642DA1FAC966D0086E474 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD0642DB1FAC966D0086E474 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DD0642E21FAC966D0086E474 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DD0642E31FAC966D0086E474 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DD0642FE1FAC966D0086E474 /* Debug */ = {
@@ -436,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TelstraiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.TelstraiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TelstraiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.TelstraiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
