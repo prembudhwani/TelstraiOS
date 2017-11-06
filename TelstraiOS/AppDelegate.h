@@ -7,17 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
+#import "CoreDataWrapper.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic, strong) UINavigationController *navigationController;
-
-@property (readonly, strong) NSPersistentContainer *persistentContainer;
-
-- (void)saveContext;
-
+@property (nonatomic, strong) CoreDataWrapper *databaseObject;
 
 @end
 

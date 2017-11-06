@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DataManager.h"
 
-@interface HomeViewController : UIViewController<UITableViewDataSource>
+@interface HomeViewController : UIViewController<UITableViewDataSource, DataManagerDelegate>
 @property (nonatomic, strong) UITableView * _Nonnull tableView;
+@property (nonnull, strong) UIActivityIndicatorView *loaderView;
 @property (nonnull,strong) NSArray *arrTableData;
 @end

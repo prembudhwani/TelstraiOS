@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13241" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Fact" representedClassName="Fact" syncable="YES" codeGenerationType="class">
+        <attribute name="factTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="rowsOfFact" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Row" inverseName="factOfRow" inverseEntity="Row" syncable="YES"/>
+    </entity>
+    <entity name="Row" representedClassName="Row" syncable="YES" codeGenerationType="class">
+        <attribute name="rowDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rowImageHref" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rowNumber" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rowTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="factOfRow" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Fact" inverseName="rowsOfFact" inverseEntity="Fact" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Fact" positionX="-558" positionY="-117" width="128" height="73"/>
+        <element name="Row" positionX="-29" positionY="-111" width="128" height="120"/>
+    </elements>
+</model>

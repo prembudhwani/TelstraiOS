@@ -1,6 +1,6 @@
 //
 //  HomeTableViewCell.m
-//  ExampleOne
+//  TelstraiOS
 //
 //  Created by Prem Budhwani on 04/11/17.
 //  Copyright © 2017 Telstra. All rights reserved.
@@ -31,6 +31,10 @@
         
         // Thumbnail Image is of fixed size which is 50 x 50
         self.imgThumbnail = [[UIImageView alloc]initWithFrame:CGRectZero];
+        //Pre-fill the thumbnail with default image
+        dispatch_async(dispatch_get_main_queue(), ^{
+            self.imgThumbnail.image = [UIImage imageNamed:@"no_image_icon"];
+        });
         
         // Description label is self sizing i.e. it can extend to multiple rows. Also, at least it will take the height of 50 points if there is lesser content.
         self.lblDescription = [[UILabel alloc]init];

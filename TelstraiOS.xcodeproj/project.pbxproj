@@ -14,6 +14,10 @@
 		DD0642E71FAC966D0086E474 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642E61FAC966D0086E474 /* main.m */; };
 		DD0642F11FAC966D0086E474 /* TelstraiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642F01FAC966D0086E474 /* TelstraiOSTests.m */; };
 		DD0642FC1FAC966D0086E474 /* TelstraiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0642FB1FAC966D0086E474 /* TelstraiOSUITests.m */; };
+		DD068DA61FB03A1B0067CED5 /* CoreDataWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD068DA51FB03A1B0067CED5 /* CoreDataWrapper.m */; };
+		DD068DA91FB03A3F0067CED5 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DD068DA81FB03A3F0067CED5 /* DataManager.m */; };
+		DD068DAC1FB03A650067CED5 /* RestAPICommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD068DAB1FB03A650067CED5 /* RestAPICommunicator.m */; };
+		DD068DAF1FB03A7D0067CED5 /* FactBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DD068DAE1FB03A7D0067CED5 /* FactBuilder.m */; };
 		DD0750641FAE0CF400E0EEB6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */; };
 		DDFF00781FAE586B00CF7593 /* no_image_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF00751FAE586B00CF7593 /* no_image_icon.png */; };
 		DDFF00791FAE586B00CF7593 /* no_image_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF00761FAE586B00CF7593 /* no_image_icon@2x.png */; };
@@ -54,6 +58,22 @@
 		DD0642F71FAC966D0086E474 /* TelstraiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelstraiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0642FB1FAC966D0086E474 /* TelstraiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelstraiOSUITests.m; sourceTree = "<group>"; };
 		DD0642FD1FAC966D0086E474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD068DA41FB03A1B0067CED5 /* CoreDataWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataWrapper.h; sourceTree = "<group>"; };
+		DD068DA51FB03A1B0067CED5 /* CoreDataWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataWrapper.m; sourceTree = "<group>"; };
+		DD068DA71FB03A3F0067CED5 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		DD068DA81FB03A3F0067CED5 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		DD068DAA1FB03A650067CED5 /* RestAPICommunicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestAPICommunicator.h; sourceTree = "<group>"; };
+		DD068DAB1FB03A650067CED5 /* RestAPICommunicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestAPICommunicator.m; sourceTree = "<group>"; };
+		DD068DAD1FB03A7D0067CED5 /* FactBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactBuilder.h; sourceTree = "<group>"; };
+		DD068DAE1FB03A7D0067CED5 /* FactBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactBuilder.m; sourceTree = "<group>"; };
+		DD068DB01FB043EA0067CED5 /* Fact+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fact+CoreDataClass.h"; sourceTree = "<group>"; };
+		DD068DB11FB043EA0067CED5 /* Row+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Row+CoreDataClass.m"; sourceTree = "<group>"; };
+		DD068DB21FB043EA0067CED5 /* Row+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Row+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DD068DB31FB043EB0067CED5 /* Fact+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Fact+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DD068DB41FB043EB0067CED5 /* Row+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Row+CoreDataProperties.h"; sourceTree = "<group>"; };
+		DD068DB51FB043EB0067CED5 /* Fact+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fact+CoreDataClass.m"; sourceTree = "<group>"; };
+		DD068DB61FB043EB0067CED5 /* Fact+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Fact+CoreDataProperties.m"; sourceTree = "<group>"; };
+		DD068DB71FB043EB0067CED5 /* Row+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Row+CoreDataClass.h"; sourceTree = "<group>"; };
 		DD0750621FAE0CF400E0EEB6 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		DDFF00751FAE586B00CF7593 /* no_image_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_image_icon.png; sourceTree = "<group>"; };
@@ -132,6 +152,8 @@
 		DD0642D31FAC966D0086E474 /* TelstraiOS */ = {
 			isa = PBXGroup;
 			children = (
+				DD068DA31FB039F70067CED5 /* Helpers */,
+				DD068D961FB038110067CED5 /* Model */,
 				DDFF007B1FAE587C00CF7593 /* Views */,
 				DDFF00731FAE586B00CF7593 /* Resources */,
 				DD0750611FAE0CD400E0EEB6 /* ViewControllers */,
@@ -140,7 +162,6 @@
 				DD0642E01FAC966D0086E474 /* Assets.xcassets */,
 				DD0642E51FAC966D0086E474 /* Info.plist */,
 				DD0642E61FAC966D0086E474 /* main.m */,
-				DD0642DD1FAC966D0086E474 /* TelstraiOS.xcdatamodeld */,
 			);
 			path = TelstraiOS;
 			sourceTree = "<group>";
@@ -161,6 +182,37 @@
 				DD0642FD1FAC966D0086E474 /* Info.plist */,
 			);
 			path = TelstraiOSUITests;
+			sourceTree = "<group>";
+		};
+		DD068D961FB038110067CED5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD068DB71FB043EB0067CED5 /* Row+CoreDataClass.h */,
+				DD068DB11FB043EA0067CED5 /* Row+CoreDataClass.m */,
+				DD068DB41FB043EB0067CED5 /* Row+CoreDataProperties.h */,
+				DD068DB21FB043EA0067CED5 /* Row+CoreDataProperties.m */,
+				DD068DB01FB043EA0067CED5 /* Fact+CoreDataClass.h */,
+				DD068DB51FB043EB0067CED5 /* Fact+CoreDataClass.m */,
+				DD068DB31FB043EB0067CED5 /* Fact+CoreDataProperties.h */,
+				DD068DB61FB043EB0067CED5 /* Fact+CoreDataProperties.m */,
+				DD0642DD1FAC966D0086E474 /* TelstraiOS.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD068DA31FB039F70067CED5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DD068DA41FB03A1B0067CED5 /* CoreDataWrapper.h */,
+				DD068DA51FB03A1B0067CED5 /* CoreDataWrapper.m */,
+				DD068DA71FB03A3F0067CED5 /* DataManager.h */,
+				DD068DA81FB03A3F0067CED5 /* DataManager.m */,
+				DD068DAA1FB03A650067CED5 /* RestAPICommunicator.h */,
+				DD068DAB1FB03A650067CED5 /* RestAPICommunicator.m */,
+				DD068DAD1FB03A7D0067CED5 /* FactBuilder.h */,
+				DD068DAE1FB03A7D0067CED5 /* FactBuilder.m */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		DD0750611FAE0CD400E0EEB6 /* ViewControllers */ = {
@@ -269,7 +321,7 @@
 				TargetAttributes = {
 					DD0642D01FAC966D0086E474 = {
 						CreatedOnToolsVersion = 9.0.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					DD0642EB1FAC966D0086E474 = {
 						CreatedOnToolsVersion = 9.0.1;
@@ -388,9 +440,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD0642DF1FAC966D0086E474 /* TelstraiOS.xcdatamodeld in Sources */,
+				DD068DAC1FB03A650067CED5 /* RestAPICommunicator.m in Sources */,
 				DD0642E71FAC966D0086E474 /* main.m in Sources */,
+				DD068DAF1FB03A7D0067CED5 /* FactBuilder.m in Sources */,
+				DD068DA91FB03A3F0067CED5 /* DataManager.m in Sources */,
 				DDFF007E1FAE587C00CF7593 /* HomeTableViewCell.m in Sources */,
 				DD0642D61FAC966D0086E474 /* AppDelegate.m in Sources */,
+				DD068DA61FB03A1B0067CED5 /* CoreDataWrapper.m in Sources */,
 				DD0750641FAE0CF400E0EEB6 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,12 +592,14 @@
 			baseConfigurationReference = 215DE368CA0A1C149DA97F28 /* Pods-TelstraiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TelstraiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.TelstraiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -551,12 +609,14 @@
 			baseConfigurationReference = D49E02551D1125C2AAC4CF3E /* Pods-TelstraiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TelstraiOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.infosys.TelstraiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

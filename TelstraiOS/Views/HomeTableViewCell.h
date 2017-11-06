@@ -1,6 +1,6 @@
 //
 //  HomeTableViewCell.h
-//  ExampleOne
+//  TelstraiOS
 //
 //  Created by Prem Budhwani on 04/11/17.
 //  Copyright © 2017 Telstra. All rights reserved.
