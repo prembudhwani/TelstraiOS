@@ -153,13 +153,37 @@
 - (void)didReceiveFact:(Fact *)factObject
 {
     dispatch_async(dispatch_get_main_queue(), ^{
-        [self.tableView setContentOffset:CGPointMake(0.0f, -self.tableView.contentInset.top) animated:YES];
-        [self.tableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:YES];
         
-        self.navigationItem.title = factObject.factTitle;
-        NSArray *originalArray = [factObject.rowsOfFact allObjects];
-        self.arrTableData = [originalArray sortedArrayUsingDescriptors:[NSArray arrayWithObject:[[NSSortDescriptor alloc] initWithKey:@"rowNumber" ascending:YES]]];
+        //Validation check to handle the condition if factObject is nil or there are no Rows for this factObject
+        NSString *strTitle = @"";
+        if(factObject)
+        {
+            strTitle = factObject.factTitle;
+            if(factObject.rowsOfFact)
+            {
+                NSArray *originalArray = [factObject.rowsOfFact allObjects];
+                self.arrTableData = [originalArray sortedArrayUsingDescriptors:[NSArray arrayWithObject:[[NSSortDescriptor alloc] initWithKey:@"rowNumber" ascending:YES]]];
+            }
+            else
+            {
+                self.arrTableData = [[NSArray alloc]init];      //Blank array
+            }
+        }
+        else
+        {
+            self.arrTableData = [[NSArray alloc]init];          //Blank array
+        }
+        
+        self.navigationItem.title = strTitle;
         [self.tableView reloadData];
+        
+        //Scroll To Top
+        if(self.arrTableData != nil && self.arrTableData.count > 0)
+        {
+            [self.tableView layoutIfNeeded];
+            NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+            [self.tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionTop animated:YES];
+        }
         
         UIBarButtonItem *refreshBtn = self.navigationItem.rightBarButtonItem;
         refreshBtn.enabled = YES;

@@ -32,9 +32,25 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+//UI test to check if there is one Refresh button in the navigationBar
+- (void)testHasRightBarButtonItem
+{
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCTAssertEqual([app.navigationBars elementBoundByIndex:0].buttons.count, 1);
+}
+
+//UI test to check if there is one TableView
+- (void)testHasTableView
+{
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCTAssertEqual(app.tables.count , 1);
+}
+
+//Unit test to check if there is one ActivityIndicatorView
+- (void)testHasActivityIndicatorView
+{
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCTAssertEqual(app.activityIndicators.count , 1);
 }
 
 @end
