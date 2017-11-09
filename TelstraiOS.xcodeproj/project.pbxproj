@@ -19,9 +19,6 @@
 		DD068DAC1FB03A650067CED5 /* RestAPICommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DD068DAB1FB03A650067CED5 /* RestAPICommunicator.m */; };
 		DD068DAF1FB03A7D0067CED5 /* FactBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = DD068DAE1FB03A7D0067CED5 /* FactBuilder.m */; };
 		DD0750641FAE0CF400E0EEB6 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */; };
-		DDFF00781FAE586B00CF7593 /* no_image_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF00751FAE586B00CF7593 /* no_image_icon.png */; };
-		DDFF00791FAE586B00CF7593 /* no_image_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF00761FAE586B00CF7593 /* no_image_icon@2x.png */; };
-		DDFF007A1FAE586B00CF7593 /* no_image_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFF00771FAE586B00CF7593 /* no_image_icon@3x.png */; };
 		DDFF007E1FAE587C00CF7593 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFF007D1FAE587C00CF7593 /* HomeTableViewCell.m */; };
 /* End PBXBuildFile section */
 
@@ -76,9 +73,6 @@
 		DD068DB71FB043EB0067CED5 /* Row+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Row+CoreDataClass.h"; sourceTree = "<group>"; };
 		DD0750621FAE0CF400E0EEB6 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		DDFF00751FAE586B00CF7593 /* no_image_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_image_icon.png; sourceTree = "<group>"; };
-		DDFF00761FAE586B00CF7593 /* no_image_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_image_icon@2x.png"; sourceTree = "<group>"; };
-		DDFF00771FAE586B00CF7593 /* no_image_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_image_icon@3x.png"; sourceTree = "<group>"; };
 		DDFF007C1FAE587C00CF7593 /* HomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
 		DDFF007D1FAE587C00CF7593 /* HomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 		F58F1F429E4AD1936B1CF391 /* libPods-TelstraiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TelstraiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,7 +149,6 @@
 				DD068DA31FB039F70067CED5 /* Helpers */,
 				DD068D961FB038110067CED5 /* Model */,
 				DDFF007B1FAE587C00CF7593 /* Views */,
-				DDFF00731FAE586B00CF7593 /* Resources */,
 				DD0750611FAE0CD400E0EEB6 /* ViewControllers */,
 				DD0642D41FAC966D0086E474 /* AppDelegate.h */,
 				DD0642D51FAC966D0086E474 /* AppDelegate.m */,
@@ -222,24 +215,6 @@
 				DD0750631FAE0CF400E0EEB6 /* HomeViewController.m */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		DDFF00731FAE586B00CF7593 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DDFF00741FAE586B00CF7593 /* Images */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		DDFF00741FAE586B00CF7593 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				DDFF00751FAE586B00CF7593 /* no_image_icon.png */,
-				DDFF00761FAE586B00CF7593 /* no_image_icon@2x.png */,
-				DDFF00771FAE586B00CF7593 /* no_image_icon@3x.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 		DDFF007B1FAE587C00CF7593 /* Views */ = {
@@ -361,9 +336,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD0642E11FAC966D0086E474 /* Assets.xcassets in Resources */,
-				DDFF007A1FAE586B00CF7593 /* no_image_icon@3x.png in Resources */,
-				DDFF00791FAE586B00CF7593 /* no_image_icon@2x.png in Resources */,
-				DDFF00781FAE586B00CF7593 /* no_image_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
